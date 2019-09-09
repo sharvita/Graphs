@@ -1,0 +1,68 @@
+******************************************************
+*  Name      : Sharvita Paithankar         
+*  Student ID:      108172438           
+*  Class     :   Object Oriented Programming           
+*  HW#       :  5               
+*  Due Date  :  9 September, 2017 
+*******************************************************
+
+
+                 Read Me
+
+
+*******************************************************
+*  Description of the program
+*******************************************************
+
+The program implements the a maze of letters using
+references to instances of a Node struct which contains
+the name of the node and four pointers, one for each of
+the directions. Each node in the graph will correspond 
+to an instance of Node. The edges correspond to links 
+that connect one node to another and can be represented 
+as pointers to other nodes. 
+*******************************************************
+*  Source files
+*******************************************************
+
+Name:  main.cpp
+   Main program. This is the driver program that has a
+struct of Nodes(which contains a char and node pointers
+for directions) and allows the user to choose 
+
+   
+*******************************************************
+*  Circumstances of programs
+*******************************************************
+
+   The program runs successfully on visual studios. It complies and seems
+   to give the correct output.   
+   
+   The program was not developed and tested on gnu g++ 4.4.2.  It was 
+   not compiled, run, and tested on gcc ouray.cudenver.edu.
+
+
+*******************************************************
+*  How to build and run the program
+*******************************************************
+
+1. Uncompress the homework.  The homework file is compressed.  
+   To uncompress it use the following commands 
+       % unzip [OOPLab05]
+
+   Now you should see a directory with the files:
+        Debug
+	OOPLab05
+        OOPLab05.sln
+        Read Me
+
+2. Build the program.
+
+        Once you have opened the OOPLab05.sln file, you will 
+        see that there is a main.cpp. Click on Build->Build Solution.
+    
+
+3. Run the program by:
+	Once you have built the solution, use the "Local Windows Debugger"
+        to run the program.
+ 
